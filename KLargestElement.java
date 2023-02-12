@@ -22,5 +22,12 @@ public class KLargestElement {
                 }
             }
         }
+
+        while (pq.size() > 0) {
+            System.out.println(pq.remove());
+            // 10
+            // 17
+            // 18
+        }
     }
 }
